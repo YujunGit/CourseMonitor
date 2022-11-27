@@ -3,7 +3,7 @@ import unittest
 from main.python.coursemonitor.SearchResult import SearchResult
 from main.python.coursemonitor.Course import Course
 
-class CourseTest(unittest.TestCase):
+class SearchResult_test(unittest.TestCase):
     """This test case class contains basic unit tests for Course class.
     """
     RESULT_1 = '{\n  "success": true,\n  "totalCount": 0,\n  "data": null,\n  "pageOffset": 0,\n  "pageMaxSize": 20,\n  "sectionsFetchedCount": 0,\n  "pathMode": null,\n  "searchResultsConfigs": null,\n  "ztcEncodedImage": null\n}'
